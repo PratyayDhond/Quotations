@@ -1,0 +1,62 @@
+.MenuBar{
+    height: 10vh;
+    
+}
+
+a{
+   color: #f5f5dc;
+   text-decoration: none; 
+}
+
+.MenuBarComponent{
+    padding: 2vh 2vw 2vh 2vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.MenuBarContent{
+    text-align: center;
+
+    
+}
+
+
+
+
+        /* Media Query for Mobile Devices */
+        @media (max-width: 480px) and (orientation: portrait){
+
+            .MenuBar{
+                height: 7vh;   
+            }
+
+        }
+    
+        @media (max-width: 480px) and (orientation: landscape){
+
+        }
+          
+        /* Tablet Portrait */
+        @media (min-width: 481px) and (max-width: 768px) and (orientation: portrait){
+            .MenuBar{
+                height: 4vh;
+            }      
+        }
+
+        @media (min-width: 481px) and (max-width: 768px) and (orientation: landscape){
+
+        }
+          
+        /* Media Query for Tablets Ipads portrait mode */
+        @media (min-width: 768px) and (max-width: 1080px){
+
+        }
+          
+        /* Tablet Landscape */
+        @media (min-width: 1081px) and (max-width: 1280px){
+            /* No changes needed as of now */
+        }
+          
+        /* Laptop*/
+        /* @media (min-width: 1281px) {
+        } */
