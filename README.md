@@ -1,4 +1,4 @@
-Website : https://quotation-react.web.app/addQuote
+Website : https://quotation-react.web.app/
 
 IMAGES: 
 
